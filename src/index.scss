@@ -23,8 +23,40 @@
   &__sidebar {
     background-color: #F4F6F8;
     width: 200px;
-    height: 100%;
+    height: calc(100% - 120px);
     border-right: 1px solid #f1f1f1;
     padding: 60px 20px;
+  }
+}
+
+.button {
+  background: #4DD599;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background: darken($color: #4DD599, $amount: 10%);
+  }
+
+  &:active {
+    background: darken($color: #4DD599, $amount: 16%);
+  }
+}
+
+.field {
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 12px;
+  transition: 0.3s;
+  width: 100%;
+
+  &:focus {
+    border-color: #cacaca;
   }
 }
