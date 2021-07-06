@@ -2,7 +2,7 @@
   "lists": [
     {
       "id": 1,
-      "name": "Продажи",
+      "name": "Покупки",
       "colorId": 5
     },
     {
@@ -24,16 +24,6 @@
       "id": 5,
       "name": "Личное",
       "colorId": 1
-    },
-    {
-      "name": "Спорт",
-      "colorId": 3,
-      "id": 6
-    },
-    {
-      "name": "Курс по ReactJS ToDo",
-      "colorId": 7,
-      "id": 7
     }
   ],
   "tasks": [
