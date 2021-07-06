@@ -33,10 +33,13 @@
     &-row {
       display: flex;
       align-items: center;
+      margin-bottom: 15px;
 
-      p {
+      input {
         margin-left: 15px;
-        cursor: default;
+        border: none;
+        font-style: 16px;
+        width: 100%;
       }
     }
   }
