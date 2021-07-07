@@ -2,7 +2,7 @@
   "lists": [
     {
       "id": 1,
-      "name": "Покупки123",
+      "name": "Покупки",
       "colorId": 5
     },
     {
@@ -76,6 +76,12 @@
       "text": "222",
       "completed": true,
       "id": 12
+    },
+    {
+      "listId": 2,
+      "text": "Помыть жопу",
+      "completed": false,
+      "id": 13
     }
   ],
   "colors": [
