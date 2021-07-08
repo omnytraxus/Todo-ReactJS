@@ -6,7 +6,7 @@ import addSvg from '../../assets/img/add.svg';
 const AddTaskForm = ({ list, onAddTask }) => {
   const [visibleForm, setVisibleForm] = useState(false);
   const [inputValue, setInnputValue] = useState('');
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState('');
 
   const toggleFormVisible = () => {
     setVisibleForm(!visibleForm);
