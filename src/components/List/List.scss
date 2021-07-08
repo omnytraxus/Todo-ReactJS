@@ -1,7 +1,9 @@
 .list {
   $self: &;
-
   margin-bottom: 30px;
+  min-height: 40px;
+  max-height: calc(100vh - 460px);
+  overflow: auto;
 
   &__add-button {
     opacity: 0.4;

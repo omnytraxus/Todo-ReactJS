@@ -1,106 +1,162 @@
 {
   "lists": [
     {
-      "id": 1,
-      "name": "Продажи",
-      "colorId": 5
-    },
-    {
-      "id": 2,
-      "name": "Фронтенд",
-      "colorId": 4
-    },
-    {
-      "id": 3,
-      "name": "Фильмы и сериалы",
-      "colorId": 3
-    },
-    {
-      "id": 4,
-      "name": "Книги",
-      "colorId": 2
-    },
-    {
-      "id": 5,
-      "name": "Личное",
-      "colorId": 1
-    },
-    {
-      "name": "Спорт",
+      "name": "Фильмы",
       "colorId": 3,
-      "id": 6
+      "id": 1
     },
     {
-      "name": "Курс по ReactJS ToDo",
-      "colorId": 7,
-      "id": 7
-    },
-    {
-      "name": "asdwqwe",
+      "name": "Учеба",
       "colorId": 6,
-      "id": 8
+      "id": 2
+    },
+    {
+      "name": "Работа",
+      "colorId": 2,
+      "id": 3
+    },
+    {
+      "name": "Дом",
+      "colorId": 5,
+      "id": 4
+    },
+    {
+      "name": "Список покупок",
+      "colorId": 8,
+      "id": 5
+    },
+    {
+      "name": "Сериалы и мульты",
+      "colorId": 1,
+      "id": 6
     }
   ],
   "tasks": [
     {
-      "id": 1,
-      "listId": 2,
-      "text": "Изучить JavaScript",
-      "completed": true
-    },
-    {
-      "id": 2,
-      "listId": 2,
-      "text": "Изучить паттерны проектирования",
-      "completed": false
-    },
-    {
-      "id": 3,
-      "listId": 2,
-      "text": "ReactJS Hooks (useState, useReducer, useEffect и т.д.)",
-      "completed": true
+      "listId": 1,
+      "text": "Реквием по мечте",
+      "completed": true,
+      "id": 1
     },
     {
       "listId": 1,
-      "text": "test",
+      "text": "Хатико",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "listId": 1,
+      "text": "Веном",
       "completed": false,
+      "id": 3
+    },
+    {
+      "listId": 6,
+      "text": "Книжный магазин Блэка",
+      "completed": true,
+      "id": 4
+    },
+    {
+      "listId": 6,
+      "text": "Настоящий детектив",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "listId": 6,
+      "text": "Время приключений",
+      "completed": true,
       "id": 6
     },
     {
-      "listId": 1,
-      "text": "qweqwe",
+      "listId": 6,
+      "text": "Обычное шоу",
       "completed": true,
+      "id": 7
+    },
+    {
+      "listId": 5,
+      "text": "Масло",
+      "completed": false,
       "id": 8
     },
     {
-      "listId": 1,
-      "text": "123",
+      "listId": 5,
+      "text": "Хлеб",
       "completed": false,
       "id": 9
     },
     {
-      "listId": 7,
-      "text": "Сделали сайдбар",
+      "listId": 5,
+      "text": "Кошачий корм",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "listId": 5,
+      "text": "Макароны",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "listId": 5,
+      "text": "Что-то к чаю",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "listId": 5,
+      "text": "Творожный сырок",
+      "completed": true,
+      "id": 13
+    },
+    {
+      "listId": 4,
+      "text": "Помыть полы",
+      "completed": false,
+      "id": 14
+    },
+    {
+      "listId": 4,
+      "text": "Постирать вещи",
       "completed": true,
       "id": 15
     },
     {
-      "listId": 7,
-      "text": "Сделали список задач",
+      "listId": 4,
+      "text": "Заправить кровать",
       "completed": true,
       "id": 16
     },
     {
-      "listId": 7,
-      "text": "Сделали удаление и редактирование задач и списков",
-      "completed": true,
+      "listId": 4,
+      "text": "Снять показания счётчиков",
+      "completed": false,
       "id": 17
     },
     {
-      "listId": 8,
-      "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "completed": true,
+      "listId": 3,
+      "text": "Найти работу",
+      "completed": false,
       "id": 18
+    },
+    {
+      "listId": 2,
+      "text": "Сдать сессию",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "listId": 2,
+      "text": "Составить список ДЗ на след. сессию",
+      "completed": false,
+      "id": 20
+    },
+    {
+      "listId": 2,
+      "text": "Заплатить за учебу до сентября",
+      "completed": false,
+      "id": 21
     }
   ],
   "colors": [

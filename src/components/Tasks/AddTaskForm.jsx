@@ -19,18 +19,19 @@ const AddTaskForm = ({ list, onAddTask }) => {
       text: inputValue,
       completed: false
     };
-    setIsLoading(true);
-    axios.post('http://localhost:3001/tasks', obj).then(({ data }) => {
-
-      onAddTask(list.id, data)
-      toggleFormVisible();
-    })
-    .catch(() => {
-      alert('Ошибка при добавлении задачи!');
-    })
-    .finally(() => {
-      setIsLoading(false);
-    });
+    if (inputValue !== '') {
+      setIsLoading(true);
+      axios.post('http://localhost:3001/tasks', obj).then(({ data }) => {
+        onAddTask(list.id, data)
+        toggleFormVisible();
+      })
+      .catch(() => {
+        alert('Ошибка при добавлении задачи!');
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+    }
   };
 
   return (
